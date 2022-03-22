@@ -2,5 +2,8 @@
     "git": {
         "commitMessage": "release: update version to ${version}",
         "tagAnnotation": "${version}"
+    },
+    "hooks": {
+        "before:init": "npm run changelog"
     }
 }

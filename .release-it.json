@@ -4,6 +4,6 @@
         "tagAnnotation": "${version}"
     },
     "hooks": {
-        "before:git:release": "git tag -a ${version} -m ${version} & npm run changelog & git tag -d ${version} & git add CHANGELOG.md"
+        "before:git:release": "git tag -a ${version} -m ${version} & npm run changelog & git tag -d ${version} & git add ./CHANGELOG.md"
     }
 }

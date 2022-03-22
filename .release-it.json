@@ -4,6 +4,6 @@
         "tagAnnotation": "${version}"
     },
     "hooks": {
-        "before:git:init": "git tag -a ${version} -m ${version} & npm run changelog & git tag -d ${version}"
+        "before:git:release": "git tag -a ${version} -m ${version} & npm run changelog & git tag -d ${version}"
     }
 }

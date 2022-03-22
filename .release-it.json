@@ -4,6 +4,6 @@
         "tagAnnotation": "${version}"
     },
     "hooks": {
-        "before:init": "npm run changelog"
+        "after:version:release": "npm run changelog"
     }
 }

@@ -1,0 +1,6 @@
+{
+    "git": {
+        "commitMessage": "release: update version to ${version}",
+        "tagAnnotation": "${version}"
+    }
+}
